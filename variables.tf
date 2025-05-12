@@ -1,0 +1,14 @@
+variable "resource_group_name" {}
+variable "location" {}
+variable "vnet_name" {}
+variable "vnet_address_prefix" {}
+variable "subnet_name" {}
+variable "subnet_prefix" {}
+variable "gateway_subnet_prefix" {}
+variable "gateway_ip_name" {}
+variable "vnet_gateway_name" {}
+variable "local_gateway_name" {}
+variable "meraki_public_ip" {}
+variable "meraki_address_prefix" {}
+variable "connection_name" {}
+variable "shared_key" {}
